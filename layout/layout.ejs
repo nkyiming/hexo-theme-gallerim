@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head tag -->
+  <%- partial('_partial/head') %>
+
+  <body>
+  	<div class="uk-container">
+
+      <!-- navbar -->
+      <nav class="uk-navbar-container uk-navbar-transparent uk-margin-medium-top" uk-navbar>
+        <div class="uk-navbar-left">
+
+          <ul class="uk-navbar-nav">
+            <li><a href="https://nkyiming.github.io/">Mint Forge</a></li>
+            <li><a href="<%- config.root %>">Gallery</a></li>
+            <li><a href="#">Details</a></li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <!-- import nav menu -->
+
+  		<!-- include body -->
+      <%- body %>
+
+    </div>
+
+    <!-- footer js scripts -->
+    <%- partial('_partial/footer') %>
+  </body>
+</html>

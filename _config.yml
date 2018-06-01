@@ -1,0 +1,11 @@
+# Google Analytics Tracking ID
+google_analytics:
+
+date_format: YYYY 年 MM 月 DD 日
+
+# Default portfolio post
+default_cover_image: images/default_cover.jpg
+default_post_title: Nameless
+
+menu:
+  home: "/"

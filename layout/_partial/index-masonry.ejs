@@ -1,0 +1,26 @@
+<!-- gallery -->
+        
+        <div>
+
+          <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle uk-padding-remove uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+
+            <a href="<%- config.root %><%- item.path %>">
+              <img src="<%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "untitled" %>" />
+            </a>
+
+            <div class="uk-position-center">
+              <div class="uk-transition-slide-top-small uk-text-center">
+                <a class="uk-link-heading" href="<%- config.root %><%- item.path %>">
+                  <h1 class="uk-margin-remove"><%- item.title || theme.default_post_title || "untitled" %></h1>
+                </a>
+              </div>
+              <div class="uk-transition-slide-bottom-small uk-text-center">
+                <h2 class="uk-margin-remove"><%- item.description || "Less is More" %></h2>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+
+<!-- end gallery -->
